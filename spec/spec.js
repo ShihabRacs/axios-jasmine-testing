@@ -180,17 +180,10 @@ describe('api exists', () => {
         };
         axios.post(url, data, { headers })
             .then((response) => {
-<<<<<<< HEAD
-                // responsePost = response.data
-                console.log(response.data.hasOwnProperty("targetUrl")); 
-                expect(response.data.hasOwnProperty("targetUrl")).toBe(true); 
-                // Object.keys(response.data).toContain('username')
-=======
                 
                 console.log(response.data.hasOwnProperty("targetUrl")); 
                 expect(response.data.hasOwnProperty("targetUrl")).toBe(true); 
                 
->>>>>>> dev
                 done();
             }),(error)=>{
                 console.log(error.data)
