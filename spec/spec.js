@@ -132,10 +132,17 @@ describe('api exists', () => {
         };
         axios.post(url, data, { headers })
             .then((response) => {
+<<<<<<< HEAD
                 // responsePost = response.data
                 console.log(response.data.hasOwnProperty("username")); 
                 expect(response.data.hasOwnProperty("username")).toBe(true); 
                 // Object.keys(response.data).toContain('username')
+=======
+                
+                console.log(response.data.hasOwnProperty("username")); 
+                expect(response.data.hasOwnProperty("username")).toBe(true); 
+                
+>>>>>>> dev
                 done();
             }),(error)=>{
                 console.log(error.data)
@@ -155,10 +162,11 @@ describe('api exists', () => {
         };
         axios.post(url, data, { headers })
             .then((response) => {
-                // responsePost = response.data
+
+                
                 console.log(response.data.hasOwnProperty("password")); 
                 expect(response.data.hasOwnProperty("password")).toBe(true); 
-                // Object.keys(response.data).toContain('username')
+
                 done();
             }),(error)=>{
                 console.log(error.data)
@@ -178,10 +186,17 @@ describe('api exists', () => {
         };
         axios.post(url, data, { headers })
             .then((response) => {
+<<<<<<< HEAD
                 // responsePost = response.data
                 console.log(response.data.hasOwnProperty("targetUrl")); 
                 expect(response.data.hasOwnProperty("targetUrl")).toBe(true); 
                 // Object.keys(response.data).toContain('username')
+=======
+                
+                console.log(response.data.hasOwnProperty("targetUrl")); 
+                expect(response.data.hasOwnProperty("targetUrl")).toBe(true); 
+                
+>>>>>>> dev
                 done();
             }),(error)=>{
                 console.log(error.data)
