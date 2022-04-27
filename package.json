@@ -1,10 +1,10 @@
 {
   "dependencies": {
     "ajv": "^6.12.6",
-    "axios": "^0.26.1",
     "json": "^11.0.0"
   },
   "devDependencies": {
+    "axios": "^0.27.2",
     "jasmine": "^4.1.0"
   },
   "name": "axios-tuts",

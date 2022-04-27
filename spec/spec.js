@@ -41,12 +41,8 @@ global.responsePost;
     
 
 describe('api exists', () => {
-
-   
-    
-
     it('GET should return 200 response', (done) => {
-        console.log("case 1")
+        console.log("GET should return 200 response")
       axios.get(url)
        .then((response) => {
            responseGet = response.data
@@ -61,7 +57,7 @@ describe('api exists', () => {
     });
 
     it('GET should return 404 response in case of wrong url', (done) => {
-        console.log("case 2")
+        console.log("GET should return 404 response in case of wrong url")
         axios.get(wrongUrl)
          .then((response) => {
              console.log(response)
@@ -78,7 +74,7 @@ describe('api exists', () => {
 
     it('Post should return 200 in case of right user name and passowrd', (done) =>
     {
-        console.log("case 3")
+        console.log("Post should return 200 in case of right user name and passowrd")
         const data = {
             username: username,
             password: password
@@ -100,7 +96,7 @@ describe('api exists', () => {
 
     it('Post should return 403 in case of wrong username and passowrd', (done) =>
     {
-        console.log("case 4")
+        console.log("Post should return 403 in case of wrong username and passowrd")
         const data = {
             username:"mange",
             password:"boss"
@@ -121,7 +117,7 @@ describe('api exists', () => {
 
     it('response body should contain username parameter in case of successful post request', (done) =>
     {
-        console.log("case 5")
+        console.log("response body should contain username parameter in case of successful post request")
         const data = {
             username: username,
             password: password
@@ -145,7 +141,7 @@ describe('api exists', () => {
 
     it('response body should contain password parameter in case of successful post request', (done) =>
     {
-        console.log("case 6")
+        console.log("response body should contain password parameter in case of successful post request")
         const data = {
             username: username,
             password: password
@@ -169,7 +165,7 @@ describe('api exists', () => {
 
     it('response body should contain targetUrl parameter in case of successful post request', (done) =>
     {
-        console.log("case 7")
+        console.log("response body should contain targetUrl parameter in case of successful post request")
         const data = {
             username: username,
             password: password
