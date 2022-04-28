@@ -1,14 +1,12 @@
 ### install latest node
-### install the following dependency
-```{
-  "dependencies": {
-    "ajv": "^6.12.6",
-    "axios": "^0.26.1",
-    "json": "^11.0.0"
-  },
-  "devDependencies": {
-    "jasmine": "^4.1.0"
-  }
+### install the dependencies using the following command
+```
+npm install axios
+npm install json
+npm install jasmine
   ```
 
-### download the code and run npm test
+### download the code and run 
+```
+npm test
+```
