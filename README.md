@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "jasmine": "^4.1.0"
-  },```
+  }
+  ```
 
 ### download the code and run npm test
