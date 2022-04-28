@@ -1,5 +1,5 @@
-## install latest node
-## install the following dependency
+### install latest node
+### install the following dependency
 ```{
   "dependencies": {
     "ajv": "^6.12.6",
@@ -10,4 +10,4 @@
     "jasmine": "^4.1.0"
   },```
 
-  ## download the code and run npm test
+### download the code and run npm test
